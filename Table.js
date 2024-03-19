@@ -11,9 +11,7 @@ const Table = ({ updateOneData }) => {
         return response.json();
       })
       .then((result) => {
-        // Store the data in the ref
-        // dataRef.current = result;
-        // Update the state with the fetched data
+      
         setData(result);
       })
       .catch((error) => {
