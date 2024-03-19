@@ -1,8 +1,5 @@
 import React, { useEffect, useState } from "react";
 import Table from "./Table";
-// import contactImg from "../../assets/Contact.png";
-// import emailicon from "../../assets/emailbox.png";
-// import phoneicon from "../../assets/phone.png";
 
 const Form = () => {
   const [updateData, setUpdateData] = useState(null);
