@@ -43,7 +43,7 @@ const Table = ({ updateOneData }) => {
 
   return (
     <div className="sample-table-container">
-      <h2 className="table-title">Sample Table</h2>
+      <h2 className="table-title">Table</h2>
       <table className="table">
         <thead>
           <tr>
